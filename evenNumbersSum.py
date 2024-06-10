@@ -1,9 +1,11 @@
 sum = 0
 n = int(input("Enter a positive integer:"))
 number = n
-if number > 0:
 
+#Check if n is a positive number ONLY.
+if n > 0:
     for number in range (1,n+1):
+        #Skip odd numbers
         if number % 2 != 0:
             continue
         sum += number
