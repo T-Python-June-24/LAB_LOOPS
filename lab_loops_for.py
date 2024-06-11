@@ -1,7 +1,11 @@
-for numebr in range(45 , 210):
-    if numebr == 100:
-        continue
-    elif numebr == 205:
+i=1
+while i<=3:
+    question =int(input("what is the product 7 * 24? "))
+    if question == 168:
+        print("you answer this question correctly ")
         break
-    print(numebr)
-
+    else: 
+        i+=1
+        print("your answer is wrong try again")
+else: 
+    print("exceeded number of attempt")
